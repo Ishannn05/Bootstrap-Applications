@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+.jumbotron{
+	padding: 70px 30px;
+	margin: 0px;
+	-webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: black;
+	color: #FFB600;
+	font-family: 'Fredoka One', cursive;
+}
+div> h5{
+	color:floralwhite;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
