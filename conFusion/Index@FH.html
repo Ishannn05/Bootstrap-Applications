@@ -7,28 +7,103 @@
 	    <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
 	    <link href="css/styles@FH.css" type="text/css" rel="stylesheet">
 		<title>Fuel Hook </title>
 	</head>
 
 	<body>
+		<div class="container-fluid primary-dark fixed-top">
+			<div class="row justify-content-between">
+				<div class="col-12 col-md-6 no-padding" >
+					<nav class="navbar navbar-dark navbar-expand-md">
+				        <div class="container">
+				            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				                <span class="navbar-toggler-icon"></span>
+				            </button>
+				            <div class="collapse navbar-collapse" id="Navbar">   
+				                <ul class="navbar-nav mr-auto">
+				                	<li class="nav-item"><a href="" class="nav-link d-md-none"> Sign In</a></li>
+				                    <li class="nav-item active"><a href="#" class="nav-link"> Home</a></li>
+				                    <li class="nav-item"><a href="aboutus.html" class="nav-link"> About</a></li>
+				                    <li class="nav-item"><a href="#" class="nav-link"> Menu</a></li>
+				                    <li class="nav-item"><a href="#" class="nav-link"> Contact</a></li>
+				                </ul>
+				            </div>
+				        </div>
+				    </nav>
+				</div>
+
+				<div class="col-md-auto d-none d-md-block nav-item align-self-center">
+					<a href="" class="btn btn-link"><i class="fa fa-lg fa-user-o"></i></a>
+				</div>
+			</div>
+		</div>
+
 		<header class="jumbotron">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-12">
-						<h1>Fuel Hook</h1>
-						<h5>Your one stop destination for fuel management systems</h5>
+					<div class="col-12 col-sm-6">
+						<h1>Fuel H<span style="color:snow;">oo</span>k</h1>
+						<p class="description">Your one stop destination for fuel management systems</p>
 					</div>
 				</div>
 			</div>
 		</header>
-		<div class="container">Body</div>
-		<footer>
+
+		<div class="container">
+			<div class="row row-content align-items-center">	
+				<div class="col col-md-4 order-md-last"><h2>What we make</h2></div>
+				<div class="col-12 col-md-8 order-md-first"><h3>Description</h3></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row row-content align-items-center">	
+				<div class="col col-md-4"><h2>Efficie</h2></div>
+				<div class="col-12 col-md-8"><h3>Description</h3></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row row-content align-items-center">	
+				<div class="col col-md-4 order-md-last"><h2>Cost</h2></div>
+				<div class="col-12 col-md-8 order-md-first"><h3>Description</h3></div>
+			</div>
+		</div>
+
+		<footer class="footer secondary-dark">
 			<div class="container">
 				<div class="row">
-					<div>Links</div>
+					<div class="col-5 col-md-3 offset-1 align-self-center mr-auto">
+						<div class="row">
+							<div class="col-12 text-center"><h4>Explore</h4></div>
+							<div class="col text-center">
+								<a href="" class="d-block">Home</a>
+								<a href="" class="d-block">About</a>
+								<a href="" class="d-block">Product</a>
+								<a href="" class="d-block">Services</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-3 mr-auto">
+						<address>221B, Baker Street, London, United Kingdom</address>
+						<div class="fa fa-phone fa-lg"></div><div> +91-98231782139</div>
+					</div>
+
+					<div class="col col-md-5 text-center align-self-center">
+                        <a href="http://www.facebook.com/profile.php?id=" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/therock/?hl=en" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a href="http://www.linkedin.com/in/" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="mailto:" class="btn btn-social-icon"><i class="fa fa-envelope-o fa-lg"></i></a>
+					</div>
 				</div>
 			</div>
 		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
