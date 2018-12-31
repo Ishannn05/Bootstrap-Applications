@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Antic|B612:700i|Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo:700|Asap+Condensed:600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 .jumbotron{
 	padding: 70px 30px;
 	margin: 0px;
 	background-color: #ff8300;
-   -webkit-text-stroke-width: 0px;
-   -webkit-text-stroke-color: #0900ff;
+   /*-webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: #0900ff;*/
 	color: black;
 	font-family: 'Fredoka One', cursive;
 }
@@ -15,6 +16,9 @@
 }
 .secondary-dark{
 	background-color: #60605f;
+	color: snow;
+}
+a .text-muted:hover{
 	color: snow;
 }
 .row-content{
@@ -51,4 +55,10 @@ body{
 	font-weight: 500;
 	margin: 0px auto;
 	padding: 20px 0px 20px 0px;
+}
+.min-width{
+	min-width: 30px;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
 }
