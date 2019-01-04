@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Antic|B612:700i|Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo:700|Asap+Condensed:600');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Exo|Muli:600i|Nunito:600i|Open+Sans:600i|Raleway:500i');
+html{
+	height: 100%;
+}
 .jumbotron{
-	padding: 70px 30px;
+	padding: 100px 30px;
 	margin: 0px;
-	background-color: #ff8300;
+	background-color: #ff9900;
+	/*background-color: #ff8300;*/
    /*-webkit-text-stroke-width: 0px;
    -webkit-text-stroke-color: #0900ff;*/
 	color: black;
@@ -14,8 +19,12 @@
 	background-color: #000000;
 	color: snow;
 }
+.bg-orange{
+	background-color: #ff8300;
+	color: black;
+}
 .secondary-dark{
-	background-color: #60605f;
+	background-color: #827f7b;
 	color: snow;
 }
 a .text-muted:hover{
@@ -35,6 +44,7 @@ a .text-muted:hover{
 body{
 	padding: 50px 0px 0px 0px;
 	z-index: 0;
+	height: 100%;
 }
 .navbar-dark{
 	background-color: black;
@@ -59,6 +69,24 @@ body{
 .min-width{
 	min-width: 30px;
 }
+.min-height{
+	min-height: 400px;
+}
 .montserrat{
 	font-family: 'Montserrat', sans-serif;
+}
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+.raleway{
+font-family: 'Raleway', sans-serif;
+}
+.muli{
+font-family: 'Muli', sans-serif;
+}
+.nunito{
+font-family: 'Nunito', sans-serif;
+}
+.exo{
+font-family: 'Exo', sans-serif;
 }
