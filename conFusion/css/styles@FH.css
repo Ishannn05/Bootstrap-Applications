@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Antic|B612:700i|Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo:700|Asap+Condensed:600');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Exo|Muli:600i|Nunito:600i|Open+Sans:600i|Raleway:500i');
+@import url('https://fonts.googleapis.com/css?family=Exo|Muli|Nunito|Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Quicksand|Varela+Round');
 html{
 	height: 100%;
 }
@@ -34,7 +36,7 @@ a .text-muted:hover{
 	margin:0px auto;
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px ridge #D1C4E9;
-	min-height: 400px; 
+	min-height: 500px; 
 }
 .description{
 	color: black;
@@ -55,9 +57,6 @@ body{
 }
 .sm-padding{
 	padding: 30px 0px 0px 0px;
-}
-.btn-snow{
-	color: snow;
 }
 .footer{
 	color: snow;
@@ -89,4 +88,32 @@ font-family: 'Nunito', sans-serif;
 }
 .exo{
 font-family: 'Exo', sans-serif;
+}
+.quicksand{
+	font-family: 'Quicksand', sans-serif;
+}
+.verelaRound{
+	font-family: 'Varela Round', sans-serif;
+}
+.newsCycle{
+    font-family: 'News Cycle', sans-serif;
+}
+ul.navbar-nav{
+	font-weight: 600;
+	color: #d8d8d8;
+}
+a.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 131, 0, 0.7)
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: rgb(255, 131, 0);
 }
